@@ -6,6 +6,8 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.EditText;
 
+import java.io.File;
+
 import edu.utsa.cs3443.campusmapper.controller.Button1_MainController;
 
 public class MainActivity extends AppCompatActivity
@@ -17,6 +19,7 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        File tempFile = new File("/data/students.csv");
 
         EditText t1 = findViewById(R.id.user_name_text);
         EditText t2 = findViewById(R.id.abc123_text);
