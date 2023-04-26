@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText t1 = findViewById(R.id.name_enter_text);
-        EditText t2 = findViewById(R.id.abc123_enter_text);
+        EditText t1 = findViewById(R.id.user_name_text);
+        EditText t2 = findViewById(R.id.abc123_text);
 
         (findViewById(R.id.add_courses_btn)).setOnClickListener(new Button1_MainController(this,t1,t2));
     }

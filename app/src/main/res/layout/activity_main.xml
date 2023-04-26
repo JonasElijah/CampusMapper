@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/instruction_label"
+        android:id="@+id/instruction_lbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter your information:"
@@ -23,7 +23,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/name_label"
+            android:id="@+id/user_name_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your Name:"
@@ -32,7 +32,7 @@
             android:textColorHint="#000000" />
 
         <EditText
-            android:id="@+id/name_enter_text"
+            android:id="@+id/user_name_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -49,7 +49,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/abc123_label"
+            android:id="@+id/abc123_lbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your abc123:"
@@ -58,7 +58,7 @@
             android:textColorHint="#000000" />
 
         <EditText
-            android:id="@+id/abc123_enter_text"
+            android:id="@+id/abc123_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
