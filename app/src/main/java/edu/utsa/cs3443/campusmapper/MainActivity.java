@@ -12,7 +12,6 @@ import edu.utsa.cs3443.campusmapper.controller.Button1_MainController;
 
 public class MainActivity extends AppCompatActivity
 {
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState)
