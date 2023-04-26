@@ -25,7 +25,7 @@ public class CoursesActivity extends AppCompatActivity
         String user_name = intent.getStringExtra("name");
         String user_abc123 = intent.getStringExtra("abc123");
         data.add(new String[]{user_name, user_abc123});
-        TextView welcomeText = findViewById(R.id.textView3), abcText = findViewById(R.id.textView8);
+        TextView welcomeText = findViewById(R.id.welcome_label), abcText = findViewById(R.id.abc123_label);
         welcomeText.setText("Welcome " + user_name);
         abcText.setText("("+user_abc123+")");
     }

@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.Button;
 import android.widget.EditText;
 
 import edu.utsa.cs3443.campusmapper.controller.Button1_MainController;
@@ -20,9 +18,9 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText t1 = findViewById(R.id.editTextText);
-        EditText t2 = findViewById(R.id.editTextText2);
+        EditText t1 = findViewById(R.id.name_enter_text);
+        EditText t2 = findViewById(R.id.abc123_enter_text);
 
-        (findViewById(R.id.button1)).setOnClickListener(new Button1_MainController(this,t1,t2));
+        (findViewById(R.id.add_courses_btn)).setOnClickListener(new Button1_MainController(this,t1,t2));
     }
 }
