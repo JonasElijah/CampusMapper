@@ -29,6 +29,7 @@ public class EnterCourse_CoursesActivity implements View.OnClickListener
         String crs_name_str = crs_name.getText().toString();
         String roomStr = room.getText().toString();
         String dptStr = dpt.getText().toString();
+
         data.add(new String[]{dptStr,crs_num_str,crs_name_str,roomStr});
     }
 }

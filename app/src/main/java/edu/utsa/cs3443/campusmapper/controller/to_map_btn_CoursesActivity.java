@@ -24,9 +24,12 @@ public class to_map_btn_CoursesActivity implements View.OnClickListener
     public void onClick(View v)
     {
         WriteToCsv csvWrite = new WriteToCsv(context, data);
-        try {
+        try
+        {
             csvWrite.write();
-        } catch (IOException e) {
+        }
+        catch (IOException e)
+        {
             throw new RuntimeException(e);
         }
 
