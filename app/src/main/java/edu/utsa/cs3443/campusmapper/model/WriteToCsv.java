@@ -41,7 +41,7 @@ public class WriteToCsv
         {
             Log.d("Test","File does NOT exist");
         }
-        //FileOutputStream csvFile = openFileOutput(csvName, Context.MODE_PRIVATE);
+        // FileOutputStream csvFile = openFileOutput(csvName, Context.MODE_PRIVATE);
         FileWriter csvWriter = new FileWriter(csvFile);
         // Write the data to the CSV file
         for (String[] row : data)

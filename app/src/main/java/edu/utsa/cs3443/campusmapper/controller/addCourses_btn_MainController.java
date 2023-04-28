@@ -2,17 +2,16 @@ package edu.utsa.cs3443.campusmapper.controller;
 
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
 import edu.utsa.cs3443.campusmapper.CoursesActivity;
 
-public class Button1_MainController implements View.OnClickListener
+public class addCourses_btn_MainController implements View.OnClickListener
 {
     Context context;
     EditText name, abc123;
-    public Button1_MainController(Context x, EditText y, EditText z)
+    public addCourses_btn_MainController(Context x, EditText y, EditText z)
     {
         context = x;
         name = y;
